@@ -23,7 +23,7 @@ You are able to run the current project in either way below:
 ### 2. Modify the target time
 In order to test the countdown on different occasions, in the `src/index.html`, you need to update the `data-date` and `data-time` to a closer time (e.g. current time + 1 min). So you can see how the countdown behaves when it reaches the target time.
 ## TODO
-  - [ ]  Make the countdown loop stop once it reaches the target time. Currently, the countdown continues with minus values. 
+  - [X]  Make the countdown loop stop once it reaches the target time. Currently, the countdown continues with minus values. 
   - [ ]  Make the countdown element disappear after the target time is reached.
   - [ ]  The CTA element should show up when the countdown is done.
   - [ ]  The default font for the landing page is set to `Neue Haas Grotesk Display`, but the font is not applied. Investigate why and provide a solution.

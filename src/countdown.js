@@ -16,11 +16,15 @@ const countdown = function(config) {
 
   // Set the date we're counting down to
   const countDownDate = new Date(targetYear, targetMonth-1, targetDay, targetHour, targetMin).getTime();
+  // console.log (countDownDate)
 
   select(config.target+' .day .label').innerHTML = config.dayLabel;
   select(config.target+' .hour .label').innerHTML = config.hourLabel;
   select(config.target+' .min .label').innerHTML = config.minLabel;
   select(config.target+' .sec .label').innerHTML = config.secLabel;
+
+  // Function to add leading zeros to number < 10
+  const addZero = num = (numb <10 ? '0' + num : num.toString());
 
   const updateTime = () => {
     console.log('updateTime')
