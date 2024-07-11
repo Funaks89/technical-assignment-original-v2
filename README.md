@@ -39,6 +39,10 @@ Once you have fixed the CTA button, you should be able to click it. On click, th
 ### Answer
       Place a brief explanation here. You can explain this further during the technical interview.
 
+      - What is the error? The error is a CSP error which blocks external sites from embeeding on their sites
+- Why does it happen, what is the reason for this error? It happens so unauthorized websites cannot use the embedding for free.
+- What would be the potential solution(s)? Potential solutions would be that assuming we have a whitelist of website we add on our end, we add this clients website to our whitelist.
+
 
 See how to reproduce the error: [Video](producing-iframe-error.mp4)
 
