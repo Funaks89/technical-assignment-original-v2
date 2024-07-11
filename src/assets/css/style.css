@@ -8,6 +8,14 @@ body {
   background-color: #ededed;
 }
 
+.wrapper > h1.live {
+  display: none;
+}
+
+.wrapper > h1.starting {
+  display: block;
+}
+
 .wrapper {
   align-content: center;
 }

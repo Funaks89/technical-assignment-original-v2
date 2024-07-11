@@ -10,7 +10,8 @@
 </head>
 <body>
   <div class="wrapper">
-    <h1>We go live in</h1>
+    <h1 class = "starting">We go live in</h1>
+    <h1 class ="live"> We are live! </h1>
 
     <div class="countdown" data-date="11-7-2024" data-time="13:37">
       <div class="day">
@@ -47,7 +48,11 @@
         // Invoked when the target time is reached
         select(".countdown").style.display = "none";
         select(".cta").style.display = "flex";
-        select(".wrapper>h1").classList.add("live");
+        const liveHeading = select(".wrapper > h1.live");
+        const startingHeading = select(".wrapper > h1.starting")
+        startingHeading.style.display = "none";
+        liveHeading.style.display = 'block';
+        liveHeading.textContent = "We are live!";
       },
     });
   </script>

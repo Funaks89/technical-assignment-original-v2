@@ -28,7 +28,7 @@ In order to test the countdown on different occasions, in the `src/index.html`, 
   - [X]  The CTA element should show up when the countdown is done.
   - [X]  The default font for the landing page is set to `Neue Haas Grotesk Display`, but the font is not applied. Investigate why and provide a solution.
   - [X]  Center the `wrapper` element by modifying the CSS. The `wrapper` element is not fully centered (It is horizontally centered but not vertically). 
-  - [ ]  The header text must be changed to 'We Are Live!' when the countdown is done.
+  - [X]  The header text must be changed to 'We Are Live!' when the countdown is done.
 
 ## Bonus questions
 Once you have fixed the CTA button, you should be able to click it. On click, the Bambuser One-to-many player will be opened. When clicking a product in the player, you will see an error page. You should not solve this error! But, you may explain the questions below. 
