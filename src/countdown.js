@@ -24,8 +24,8 @@ const countdown = function(config) {
   select(config.target+' .sec .label').innerHTML = config.secLabel;
 
   // Function to add leading zeros to number < 10
-  const addZero = (num) => (num < 10 ? '0' + num : num.toString());
-  //  const addZero = (x) => (x < 10 && x >= 0) ? "0"+x : x;
+
+   const addZero = (x) => (x < 10 && x >= 0) ? "0"+x : x;
 
   const updateTime = () => {
     console.log('updateTime')
@@ -59,4 +59,3 @@ const countdown = function(config) {
   updateTime();
 }
 
-const addZero = (x) => (x < 10 && x >= 0) ? "0"+x : x;
