@@ -18,11 +18,13 @@ body {
 
 .wrapper {
   align-content: center;
+
 }
 
 h1 {
   color: rgb(0, 0, 0);
   font-size: 6vw;
+  text-align:center;
 }
 
 h1.live {
